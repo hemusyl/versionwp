@@ -1,0 +1,184 @@
+/*
+Theme Name: Version Two
+Theme URI: http://www.hkfolio.co.uk/
+Author: Humayun Kabir
+Author URI: http://www.hkfolio.com/
+Description: This theme created for mediacontact. 
+Version: 1.0
+License: Humayun General Public License v1.0
+License URI: http://hkfolio.com
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar,fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: mediacontact.
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+.entry-content p, single-content{
+    color: black;
+}
+.sticky,.gallery-caption,bypostauthor  {
+    margin: 5px;
+}
+.meta-date{
+    color: #6f2d8e;
+}
+.bypostauthor {
+margin: 5px;
+}
+.main{
+    margin: 40px auto;
+}
+.sticky, .meta-featured-post{
+  color: red;
+}
+p, h2{
+    color: black;
+
+}
+img {
+  border: 0 none;
+  max-width: 100%;
+}
+
+/*************************
+*******Happy Clients******
+**************************/
+
+/**
+ * Header Section
+ */
+.site-title{
+    margin-top: 0px;
+}
+
+/**
+ * Widget
+ */
+.widget-title {
+    border: 1px solid#ddd;
+    padding: 10px;
+    background: #f1f1f1;
+    border-left: 5px solid#DC6;
+}
+
+/**
+ * Nav
+ */
+.navbar-nav > li {
+  margin-left: 10px !important;
+  padding-bottom: 20px;
+}
+.dropdown-menu > li > a {
+   white-space: inherit !important;;
+ 
+}
+
+.amount{
+	color:#000;
+}
